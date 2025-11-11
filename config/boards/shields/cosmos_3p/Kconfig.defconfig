@@ -21,7 +21,7 @@ endif
 if SHIELD_COSMOS_3P_CENTRAL
 
 config ZMK_KEYBOARD_NAME
-    default "Cosmos 3P Dongle"
+    default "Cosmos 3P Central"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
@@ -31,9 +31,6 @@ config ZMK_USB
 
 config ZMK_BLE
     default y
-
-config ZMK_BLE_AUTO_CONNECT
-    default y    
 
 endif
 
