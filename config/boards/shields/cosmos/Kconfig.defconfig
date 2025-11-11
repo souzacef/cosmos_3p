@@ -1,0 +1,16 @@
+if SHIELD_COSMOS_CENTRAL
+
+config ZMK_KEYBOARD_NAME
+	default "Cosmos"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_COSMOS_CENTRAL || SHIELD_COSMOS_CENTRAL || SHIELD_COSMOS_CENTRAL
+
+config ZMK_SPLIT
+	default y
+	
+endif
