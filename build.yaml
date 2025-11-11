@@ -1,7 +1,7 @@
 include:
   - board: nice_nano_v2
-    shield: lopro_cosmos_left
+    shield: cosmos_3p_left
   - board: nice_nano_v2
-    shield: lopro_cosmos_right
+    shield: cosmos_3p_right
   - board: nice_nano_v2
     shield: settings_reset

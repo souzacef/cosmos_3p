@@ -1,0 +1,11 @@
+file_format: "1"
+id: cosmos3p
+name: Cosmos 3P
+type: shield
+url: https://github.com/souzacef/cosmos_3p
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - cosmos_3p_left
+  - cosmos_3p_right

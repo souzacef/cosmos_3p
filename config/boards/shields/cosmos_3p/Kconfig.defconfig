@@ -1,14 +1,14 @@
-if SHIELD_LOPRO_COSMOS_LEFT
+if SHIELD_COSMOS_3P_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "LoPro Cosmos"
+    default "Cosmos 3P"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_LOPRO_COSMOS_LEFT || SHIELD_LOPRO_COSMOS_RIGHT
+if SHIELD_COSMOS_3P_LEFT || SHIELD_COSMOS_3P_RIGHT
 
 config ZMK_SPLIT
     default y
