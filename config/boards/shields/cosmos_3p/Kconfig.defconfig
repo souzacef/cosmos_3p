@@ -3,12 +3,41 @@ if SHIELD_COSMOS_3P_LEFT
 config ZMK_KEYBOARD_NAME
     default "Cosmos 3P"
 
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_ROLE_PERIPHERAL
     default y
 
 endif
 
-if SHIELD_COSMOS_3P_LEFT || SHIELD_COSMOS_3P_RIGHT
+if SHIELD_COSMOS_3P_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Cosmos 3P"
+
+config ZMK_SPLIT_ROLE_PERIPHERAL
+    default y
+
+endif
+
+if SHIELD_COSMOS_3P_CENTRAL
+
+config ZMK_KEYBOARD_NAME
+    default "Cosmos 3P Dongle"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_BLE_AUTO_CONNECT
+    default y    
+
+endif
+
+if SHIELD_COSMOS_3P_LEFT || SHIELD_COSMOS_3P_RIGHT || SHIELD_COSMOS_3P_CENTRAL
 
 config ZMK_SPLIT
     default y

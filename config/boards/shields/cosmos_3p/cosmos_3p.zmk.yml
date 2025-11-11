@@ -9,3 +9,4 @@ features:
 siblings:
   - cosmos_3p_left
   - cosmos_3p_right
+  - cosmos_3p_central
